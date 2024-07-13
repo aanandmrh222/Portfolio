@@ -12,7 +12,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 document.addEventListener('DOMContentLoaded', () => {
     const changingText = document.getElementById('changing-text');
     const texts = [
-        "Student",
         "Software Developer",
         "UI UX Designer"
     ];
