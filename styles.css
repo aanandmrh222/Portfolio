@@ -149,6 +149,7 @@ h2 {
     font-size: 1em;
     font-weight: bold;
     border-radius: 10px;
+    transition: transform 0.3s;
 }
 
 .btn:hover {
