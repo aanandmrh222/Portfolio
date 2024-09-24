@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aanand Kumar</title>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
@@ -29,10 +30,10 @@
     <section id="home" class="section">
         <div class="container home-container">
             <div class="home-left">
-                <p class="summary">Hello, my name is <span>Aanand Kumar</span><br>I am a <span id="changing-text"></span></p>
+                <p class="summary">Hello, Myself<br><span>Aanand Kumar</span><br>And I'm a <span id="changing-text"></span></p>
             </div>
             <div class="home-right">
-                <img src="images/ak11.png" alt="Aanand Kumar" class="user-image">
+                <img src="images/ak2.jpg" alt="Aanand Kumar" class="user-image">
             </div>
         </div>
     </section>
@@ -44,14 +45,15 @@
                     <img src="images/ak2.jpg" alt="Your Image">
                 </div>
                 <div class="about-text">
-                    <h2>About Me</h2>
+                    <h2>About <span>Me</span></h2>
+                    <h3>Software Developer</h3>
                     <p>I'm an aspiring software engineer who is passionate about contributing to open-source projects, creating technology to elevate people, and building community. I enjoy contemplating creative solutions to problems. A BTech undergrad majoring in Computer Science and Engineering, learning and growing every day. I've learned the importance of applying traditional methods for futuristic projects.</p>
                     <a href="images/AanandKumarResume.pdf" target="_blank"><button class="btn">Download CV</button></a>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section id="skills" class="section">
         <div class="container">
             <h2>Skills</h2>
@@ -89,7 +91,11 @@
                     <p>Redux</p>
                 </div>
                 <div class="skill-item">
-                    <img src="images/tailwind.png" alt="tailwind CSS">
+                    <img src="images/tailwind.png" alt="Tailwind CSS">
+                    <p>tailwind CSS</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/bootstrap.png" alt="Bootstrap">
                     <p>tailwind CSS</p>
                 </div>
                 <div class="skill-item">
@@ -100,6 +106,7 @@
                     <img src="images/github.png" alt="GitHub">
                     <p>GitHub</p>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -110,25 +117,29 @@
             <div class="projects-grid">
 
                 <div class="project">
-                    <a href="https://github.com/aanandmrh222/Myntra-Clone" target="_blank"><img src="images/myntra.png" alt="Myntra Clone"></a>
-                    <div class="project-details">
+                    
+                    <a href="#" target="_blank"><img src="images/myntra.png" alt="Myntra Clone">
                         <h3>Myntra Clone</h3>
+                    </a>
+                    <div class="project-details">
                         <p>Designed a user-centric e-commerce platform. Used Redux for state management of user data. Developed a highly responsive user interface with React.js and Sass, enhancing the application’s visual appeal and user experience, leading to a 30% boost in user retention and satisfaction rates. Engineered a dynamic frontend using React.js and advanced Sass styling techniques, resulting in a 40% improvement in page load times and a 25% increase in user engagement metrics.</p>
                     </div>
                 </div>
 
                 <div class="project">
-                    <a href="https://github.com/aanandmrh222/Sudoku-Solver" target="_blank"><img src="images/sudoku.gif" alt="Sudoku Solver Visualizer"></a>
+                    <a href="#" target="_blank"><img src="images/cloud.png" alt="Cloud Home">
+                        <h3>Cloud Home</h3>
+                    </a>
                     <div class="project-details">
-                        <h3>Sudoku Solver Visualizer</h3>
-                        <p>Developed and implemented a visualizer for solving Sudoku puzzles using backtracking algorithms. Designed an intuitive user interface with interactive features, such as real-time puzzle solving and difficulty selection. Improved computational efficiency and user experience through responsive design and algorithm optimization.</p>
+                        <p>Developed a complete application using React, Node.js, Express.js, and MongoDB, which allows users to upload, manage, and store files on Cloudinary, similar to Google Drive. Implemented secure login, signup, and OTP verification features using JWT. New users must create an account and verify their email before logging in, while existing users can log in directly, enhancing both security and user experience. Utilized front-end technologies like React, React Redux, Axios, and Parcel to build a dynamic and responsive user interface. On the back end, employed Express, bcrypt, multer, and nodemailer to manage file uploads, ensure cure authentication, and handle email notifications.</p>
                     </div>
                 </div>
 
                 <div class="project">
-                    <a href="#" target="_blank"><img src="images/twitter.jpg" alt="X.com Clone"></a>
-                    <div class="project-details">
+                    <a href="#" target="_blank"><img src="images/twitter.jpg" alt="X.com Clone">
                         <h3>X.com (Twitter) Clone</h3>
+                    </a>
+                    <div class="project-details">
                         <p>Replicated the core functionalities of Twitter, including tweet posting, liking, and commenting using React.js and Tailwind CSS. Integrated RESTful APIs for seamless communication between frontend and backend. Implemented user authentication and authorization mechanisms to ensure data security and user privacy.</p>
                     </div>
                 </div>
@@ -146,25 +157,37 @@
         </div>
     </section>
 
-    <section id="contact" class="section">
+    <section class="contact" id="contact">
         <div class="container">
-            <h2>Contact</h2>
-            <p>Email: aanandmrh222@gmail.com</p>
-            <p>Mobile: +916299556804</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/aanandmrh222" target="_blank">LinkedIn</a>
-                <a href="https://github.com/aanandmrh222" target="_blank">GitHub</a>
-                <a href="https://x.com/aanand5440" target="_blank">Twitter</a>
-                <a href="https://www.instagram.com/__aanand__kumar" target="_blank">Instagram</a>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contact Me</h2>
+                    <p>Let's Work Together</p>
+                    <p>If you have any project in mind, feel free to reach out. I am always open to discussing new ideas and collaborations!</p>
+                    <p><strong>Email:</strong> aanandmrh222@gmail.com</p>
+                    <p><strong>Phone:</strong> +91 6299556804</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/aanandkumar4980" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/aanand5440" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/__aanand__kumar" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aanandmrh222" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/aanandmrh222" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xgebpvdw" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; Developed by Aanand Kumar 2024</p>
-        </div>
+        <p>&copy; 2024 Aanand Kumar. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
