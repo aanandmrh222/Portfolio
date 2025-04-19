@@ -11,21 +11,21 @@ const Certifications = () => {
       title: "Java Programming",
       image: javaCert,
       alt: "Java Certification",
-      link: "https://example.com/java-cert" // Replace with actual certification link
+      link: "https://cipher-other-assets.s3.ap-south-1.amazonaws.com/certificates/aanandmrh222%40gmail.com_Core%20Java" 
     },
     {
       id: 2,
       title: "Web Development",
       image: webCert,
       alt: "Web Development Certification",
-      link: "https://example.com/web-cert" // Replace with actual certification link
+      link: "https://www.linkedin.com/learning/certificates/d446d2a7029ea9c64b93a79e5cd8e713ba2f869aa10258fd739db8b811ebbc6c" 
     },
     {
       id: 3,
       title: "Data Structures & Algorithms",
       image: dsaCert,
       alt: "Data Structures and Algorithms Certification",
-      link: "https://example.com/dsa-cert" // Replace with actual certification link
+      link: "https://drive.google.com/file/d/1Y64wl393id9CoxSlsJDe2Lz1ENe-NDms/view?usp=sharing" 
     }
   ];
 

@@ -34,9 +34,7 @@ const Home = () => {
             repeat={Infinity}
           />
           <p className="text-gray-400 text-lg max-w-md my-8">
-            I have 8 years of experience building and designing software.
-            Currently, I love to work on web applications using technologies
-            like React, Tailwind, Next.js and GraphQL.
+            I am a B.tech Computer Science & Engineering Student at Lovely Professional University, specializing in Full-Stack Development. I focus on building scalable applications and have a solid foundation in both front-end and back-end development.
           </p>
 
           <div className="flex gap-4">
