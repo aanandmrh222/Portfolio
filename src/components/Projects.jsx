@@ -16,25 +16,25 @@ const Projects = () => {
       image: chatapp,
       github: "http://github.com/aanandmrh222",
       demo: "http://github.com/aanandmrh222",
-      tech: ["React", "Node.js", "Socket.IO", "MongoDB"]
+      tech: ["React", "Node.js", "Express.js", "MongoDB", "Socket.IO", "JWT auth"]
     },
     {
       id: 2,
       title: "Job Portal",
-      description: "Full-stack job listing platform with advanced search, user profiles, and application tracking system.",
+      description: "Full-stack job listing platform with advanced search, user profiles, recruiters profiles, and application tracking system.",
       image: jobportal,
       github: "http://github.com/aanandmrh222",
       demo: "http://github.com/aanandmrh222",
-      tech: ["Next.js", "Express", "MongoDB", "Tailwind"]
+      tech: ["React", "Node.js", "Express", "MongoDB", "JWT auth"]
     },
     {
       id: 3,
       title: "AI Chatbot",
-      description: "Intelligent chatbot powered by OpenAI API, featuring natural language processing and context awareness.",
+      description: "Intelligent chatbot powered by Gemini API, featuring natural language processing and context awareness.",
       image: chatbot,
       github: "http://github.com/aanandmrh222",
       demo: "http://github.com/aanandmrh222",
-      tech: ["Python", "OpenAI", "React", "FastAPI"]
+      tech: ["Python", "API", "Streamlit"]
     }
   ]
 
@@ -59,7 +59,6 @@ const Projects = () => {
           className="pb-12"
         >
           <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">Projects</h2>
-          <p className="py-6 text-gray-300">Check out some of my work right here</p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8">

@@ -32,14 +32,7 @@ const Skills = () => {
           >
             Skills
           </motion.h2>
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="py-6 text-gray-300"
-          >
-            These are the technologies I've worked with
-          </motion.p>
+          
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
