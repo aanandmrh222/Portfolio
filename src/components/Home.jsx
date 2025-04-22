@@ -49,6 +49,16 @@ const Home = () => {
               </span>
             </a>
 
+            <a
+              href="/video.mp4"
+              download="video.mp4"
+              className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-300"
+            >
+              Video CV
+              <span className="ml-2 group-hover:rotate-90 duration-300">
+                <FaDownload size={18} />
+              </span>
+            </a>
             <div className="flex gap-4 py-4">
               <a
                 href="https://github.com/aanandmrh222"
