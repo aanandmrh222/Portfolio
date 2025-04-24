@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from 'react-type-animation';
 import { FaDownload, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import ak1 from "../assets/ak1.jpg";
+import Aanand_Resume from "../assets/Aanand_Resume.pdf";
+// import video_cv from "../assets/Video_CV.mp4";
 
 const Home = () => {
   return (
@@ -39,8 +41,8 @@ const Home = () => {
 
           <div className="flex gap-4">
             <a
-              href="/resume.pdf"
-              download="resume.pdf"
+              href={Aanand_Resume}
+              download="Aanand_Resume.pdf"
               className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-300"
             >
               Download CV
@@ -51,7 +53,7 @@ const Home = () => {
 
             <a
               href="/video.mp4"
-              download="video.mp4"
+              download="video_cv.mp4"
               className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-300"
             >
               Video CV
