@@ -18,7 +18,7 @@ const Home = () => {
           className="flex flex-col justify-center h-full md:pr-8 mb-12 md:mb-0"
         >
           <h2 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-4">
-            Hi, I am Aanand Kumar
+            Hi, I am Aanand Kumar 
           </h2>
           <TypeAnimation
             sequence={[
