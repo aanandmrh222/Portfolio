@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from 'react-type-animation';
 import { FaDownload, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import ak1 from "../assets/ak1.jpg";
-import Aanand_Resume from "../assets/Aanand_Resume.pdf";
+// import Aanand_Resume from "../assets/Aanand_Resume.pdf";
 
 const Home = () => {
   return (
@@ -35,13 +35,15 @@ const Home = () => {
             repeat={Infinity}
           />
           <p className="text-gray-400 text-lg max-w-md my-8">
-            I am a B.tech Computer Science & Engineering Student at Lovely Professional University, specializing in Full-Stack Development. I focus on building scalable applications and have a solid foundation in both front-end and back-end development.
+            From campus to code - my journey through CSE
           </p>
 
           <div className="flex gap-4">
             <a
-              href={Aanand_Resume}
-              download="Aanand_Resume.pdf"
+              // href={Aanand_Resume}
+              href="#"
+
+              download="Resume.pdf"
               className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-300"
             >
               Download CV
@@ -50,16 +52,8 @@ const Home = () => {
               </span>
             </a>
 
-            <a
-              href="https://drive.google.com/file/d/1VWxs203KNdt9coymmxJ-ezPwwBP5xxRP/view?usp=sharing"
-              target="_blank"
-              className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-300"
-            >
-              Video CV
-              <span className="ml-2 group-hover:rotate-90 duration-300">
-                <FaDownload size={18} />
-              </span>
-            </a>
+            
+
             <div className="flex gap-4 py-4">
               <a
                 href="https://github.com/aanandmrh222"

@@ -32,7 +32,13 @@ const Skills = () => {
           >
             Skills
           </motion.h2>
-          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="py-6 text-gray-300"
+          >
+          </motion.p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -48,7 +54,10 @@ const Skills = () => {
               <div className="text-blue-400 hover:text-blue-300 transition-colors duration-300">
                 {skill.icon}
               </div>
-              <p className="text-lg font-medium text-gray-300">{skill.title}</p>
+              <div className="flex flex-col items-center gap-2">
+                <p className="text-lg font-medium text-gray-300">{skill.title}</p>
+                <p className="text-sm text-blue-400">{skill.level}%</p>
+              </div>
               <div className="w-full h-2 bg-gray-700 rounded-full overflow-hidden">
                 <motion.div
                   initial={{ width: 0 }}
